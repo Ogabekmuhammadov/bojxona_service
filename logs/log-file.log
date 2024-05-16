@@ -1,0 +1,136 @@
+16 мая 2024 - 10:52:06.027 INFO  com.example.demo.ServisApplication - Starting ServisApplication using Java 17.0.7 with PID 13692 (C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo\target\classes started by bs12 in C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo)
+16 мая 2024 - 10:52:06.039 DEBUG com.example.demo.ServisApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+16 мая 2024 - 10:52:06.040 INFO  com.example.demo.ServisApplication - The following 1 profile is active: "dev"
+16 мая 2024 - 10:52:06.732 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16 мая 2024 - 10:52:06.791 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+16 мая 2024 - 10:52:07.349 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+16 мая 2024 - 10:52:07.360 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16 мая 2024 - 10:52:07.360 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+16 мая 2024 - 10:52:07.421 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16 мая 2024 - 10:52:07.422 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1343 ms
+16 мая 2024 - 10:52:07.539 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16 мая 2024 - 10:52:07.611 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16 мая 2024 - 10:52:07.648 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16 мая 2024 - 10:52:07.907 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16 мая 2024 - 10:52:07.950 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16 мая 2024 - 10:52:08.111 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@29c1249a
+16 мая 2024 - 10:52:08.112 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16 мая 2024 - 10:52:09.100 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16 мая 2024 - 10:52:09.121 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16 мая 2024 - 10:52:09.121 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - отношение "profile" не существует, пропускается
+16 мая 2024 - 10:52:09.123 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16 мая 2024 - 10:52:09.123 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - таблица "attach" не существует, пропускается
+16 мая 2024 - 10:52:09.124 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16 мая 2024 - 10:52:09.124 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - таблица "email_history" не существует, пропускается
+16 мая 2024 - 10:52:09.124 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+16 мая 2024 - 10:52:09.125 WARN  o.h.e.jdbc.spi.SqlExceptionHelper - таблица "profile" не существует, пропускается
+16 мая 2024 - 10:52:09.187 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 10:52:09.416 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+16 мая 2024 - 10:52:09.818 DEBUG c.example.demo.config.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+16 мая 2024 - 10:52:09.962 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16 мая 2024 - 10:52:10.268 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@51a42767, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40e420fe, org.springframework.security.web.context.SecurityContextHolderFilter@54ad9ff9, org.springframework.security.web.header.HeaderWriterFilter@7083e548, org.springframework.security.web.authentication.logout.LogoutFilter@3b538e2a, com.example.demo.config.JwtTokenFilter@2f154d9b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2eb6e166, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43b1fdb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7eaa52d6, org.springframework.security.web.access.ExceptionTranslationFilter@7ea0438c, org.springframework.security.web.access.intercept.AuthorizationFilter@3725471]
+16 мая 2024 - 10:52:10.573 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+16 мая 2024 - 10:52:10.576 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 10:52:10.577 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16 мая 2024 - 10:52:10.579 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16 мая 2024 - 10:52:10.594 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+16 мая 2024 - 10:52:10.610 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+16 мая 2024 - 10:52:45.310 INFO  com.example.demo.ServisApplication - Starting ServisApplication using Java 17.0.7 with PID 12212 (C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo\target\classes started by bs12 in C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo)
+16 мая 2024 - 10:52:45.321 DEBUG com.example.demo.ServisApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+16 мая 2024 - 10:52:45.322 INFO  com.example.demo.ServisApplication - The following 1 profile is active: "dev"
+16 мая 2024 - 10:52:45.991 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16 мая 2024 - 10:52:46.045 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+16 мая 2024 - 10:52:46.572 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+16 мая 2024 - 10:52:46.583 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16 мая 2024 - 10:52:46.583 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+16 мая 2024 - 10:52:46.640 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16 мая 2024 - 10:52:46.640 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1279 ms
+16 мая 2024 - 10:52:46.740 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16 мая 2024 - 10:52:46.802 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16 мая 2024 - 10:52:46.835 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16 мая 2024 - 10:52:47.077 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16 мая 2024 - 10:52:47.103 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16 мая 2024 - 10:52:47.263 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@406ad6d5
+16 мая 2024 - 10:52:47.264 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16 мая 2024 - 10:52:48.251 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16 мая 2024 - 10:52:48.329 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 10:52:48.556 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+16 мая 2024 - 10:52:48.958 DEBUG c.example.demo.config.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+16 мая 2024 - 10:52:49.099 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16 мая 2024 - 10:52:49.403 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4390b78f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@230ea983, org.springframework.security.web.context.SecurityContextHolderFilter@2b53d6fc, org.springframework.security.web.header.HeaderWriterFilter@2cb09f00, org.springframework.security.web.authentication.logout.LogoutFilter@71c264e5, com.example.demo.config.JwtTokenFilter@5a88ecb9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@79c9f619, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11885841, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70290678, org.springframework.security.web.access.ExceptionTranslationFilter@6354a50a, org.springframework.security.web.access.intercept.AuthorizationFilter@16bed816]
+16 мая 2024 - 10:52:49.714 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+16 мая 2024 - 10:52:49.724 INFO  com.example.demo.ServisApplication - Started ServisApplication in 4.818 seconds (process running for 5.341)
+16 мая 2024 - 11:00:53.595 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 11:00:53.598 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16 мая 2024 - 11:00:53.602 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16 мая 2024 - 11:01:16.056 INFO  com.example.demo.ServisApplication - Starting ServisApplication using Java 17.0.7 with PID 14756 (C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo\target\classes started by bs12 in C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo)
+16 мая 2024 - 11:01:16.069 DEBUG com.example.demo.ServisApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+16 мая 2024 - 11:01:16.070 INFO  com.example.demo.ServisApplication - The following 1 profile is active: "dev"
+16 мая 2024 - 11:01:16.755 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16 мая 2024 - 11:01:16.813 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+16 мая 2024 - 11:01:17.402 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+16 мая 2024 - 11:01:17.414 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16 мая 2024 - 11:01:17.414 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+16 мая 2024 - 11:01:17.478 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16 мая 2024 - 11:01:17.479 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1370 ms
+16 мая 2024 - 11:01:17.592 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16 мая 2024 - 11:01:17.668 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16 мая 2024 - 11:01:17.721 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16 мая 2024 - 11:01:17.991 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16 мая 2024 - 11:01:18.025 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16 мая 2024 - 11:01:18.202 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@283d3628
+16 мая 2024 - 11:01:18.204 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16 мая 2024 - 11:01:19.373 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16 мая 2024 - 11:01:19.445 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 11:01:19.667 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+16 мая 2024 - 11:01:20.110 DEBUG c.example.demo.config.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+16 мая 2024 - 11:01:20.728 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16 мая 2024 - 11:01:21.287 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6bcf2780, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4bb4adf7, org.springframework.security.web.context.SecurityContextHolderFilter@4f9e32f2, org.springframework.security.web.header.HeaderWriterFilter@2a64cb1f, org.springframework.security.web.authentication.logout.LogoutFilter@61761e60, com.example.demo.config.JwtTokenFilter@b22bebc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@537360e3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70f5f6c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@11544ddd, org.springframework.security.web.access.ExceptionTranslationFilter@2810d9, org.springframework.security.web.access.intercept.AuthorizationFilter@4a3d4cd2]
+16 мая 2024 - 11:01:21.864 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+16 мая 2024 - 11:01:21.879 INFO  com.example.demo.ServisApplication - Started ServisApplication in 6.276 seconds (process running for 7.008)
+16 мая 2024 - 11:01:47.079 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 11:01:47.081 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16 мая 2024 - 11:01:47.084 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+16 мая 2024 - 11:01:51.002 INFO  com.example.demo.ServisApplication - Starting ServisApplication using Java 17.0.7 with PID 12124 (C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo\target\classes started by bs12 in C:\Users\bs12\OneDrive\Рабочий стол\JavaBackend\demo)
+16 мая 2024 - 11:01:51.014 DEBUG com.example.demo.ServisApplication - Running with Spring Boot v3.2.5, Spring v6.1.6
+16 мая 2024 - 11:01:51.015 INFO  com.example.demo.ServisApplication - The following 1 profile is active: "dev"
+16 мая 2024 - 11:01:51.713 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+16 мая 2024 - 11:01:51.773 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+16 мая 2024 - 11:01:52.350 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+16 мая 2024 - 11:01:52.363 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16 мая 2024 - 11:01:52.363 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.20]
+16 мая 2024 - 11:01:52.426 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16 мая 2024 - 11:01:52.426 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1367 ms
+16 мая 2024 - 11:01:52.555 INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+16 мая 2024 - 11:01:52.623 INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.4.Final
+16 мая 2024 - 11:01:52.672 INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16 мая 2024 - 11:01:52.921 INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+16 мая 2024 - 11:01:52.949 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+16 мая 2024 - 11:01:53.116 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33ebe4f0
+16 мая 2024 - 11:01:53.118 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+16 мая 2024 - 11:01:54.151 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16 мая 2024 - 11:01:54.237 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 11:01:54.459 INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+16 мая 2024 - 11:01:54.880 DEBUG c.example.demo.config.JwtTokenFilter - Filter 'jwtTokenFilter' configured for use
+16 мая 2024 - 11:01:55.249 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+16 мая 2024 - 11:01:55.739 INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f8ede54, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e0383d3, org.springframework.security.web.context.SecurityContextHolderFilter@7fbe0f64, org.springframework.security.web.header.HeaderWriterFilter@45e6f47a, org.springframework.security.web.authentication.logout.LogoutFilter@22edca96, com.example.demo.config.JwtTokenFilter@440e2406, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@53b42a0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cf6a6eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f64f47a, org.springframework.security.web.access.ExceptionTranslationFilter@26c84006, org.springframework.security.web.access.intercept.AuthorizationFilter@72187492]
+16 мая 2024 - 11:01:56.323 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path ''
+16 мая 2024 - 11:01:56.339 INFO  com.example.demo.ServisApplication - Started ServisApplication in 5.766 seconds (process running for 6.414)
+16 мая 2024 - 12:00:33.181 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+16 мая 2024 - 12:00:33.243 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+16 мая 2024 - 12:00:33.255 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

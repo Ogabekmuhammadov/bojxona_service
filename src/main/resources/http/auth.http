@@ -1,0 +1,12 @@
+### registration
+POST localhost:8080/auth/registration
+Content-Type: application/json
+Accept-Language:UZ
+
+
+{
+  "name": "Ogabek",
+  "surname": "Muhammadov",
+  "email": "sardortogayev2002@gmail.com",
+  "password": "admin"
+}
